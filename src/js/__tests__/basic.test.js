@@ -7,16 +7,6 @@ test('should sum', () => {
   expect(result).toBe(6);
 });
 
-let heroes = [
-  {name: 'мечник', health: 10},
-  {name: 'маг', health: 100},
-  {name: 'лучник', health: 80},
-]
-let result = [
-  {name: 'маг', health: 100},
-  {name: 'лучник', health: 80},
-  {name: 'мечник', health: 10},
-]
 test('test1', () => {
   let heroes = [
     {name: 'мечник', health: 10},
